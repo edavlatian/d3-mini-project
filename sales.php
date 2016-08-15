@@ -50,10 +50,10 @@
                 <ul class="nav nav-tabs nav-collapse" role="tablist">
                     <li role="presentation" class="active"><a href="#monthlyTotal" aria-controls="monthlyTotal" role="tab" data-toggle="tab">Monthly Total Branch Sales</a></li>
                     <li role="presentation"><a href="#monthlyComparison" aria-controls="monthlyComparison" role="tab" data-toggle="tab">Monthly Sales Comparison</a></li>
-                    <li role="presentation"><a href="#monthForcast" aria-controls="monthForcast" role="tab" data-toggle="tab">Month Forcast</a></li>                  
+                    <li role="presentation"><a href="#monthForcast" aria-controls="monthForcast" role="tab" data-toggle="tab">Month Forecast</a></li>                  
                     <li role="presentation"><a href="#yearlyTotal" aria-controls="yearlyTotal" role="tab" data-toggle="tab">Yearly Total Branch Sales</a></li>
                     <li role="presentation"><a href="#yearlyComparison" aria-controls="yearlyComparison" role="tab" data-toggle="tab">Yearly Sales Comparison</a></li>
-                    <li role="presentation"><a href="#yearForcast" aria-controls="yearForcast" role="tab" data-toggle="tab">Year Forcast</a></li>
+                    <li role="presentation"><a href="#yearForcast" aria-controls="yearForcast" role="tab" data-toggle="tab">Year Forecast</a></li>
 
                 </ul>
 
@@ -76,7 +76,7 @@
                     </div><!-- #MonthlyComparison -->
 
                     <div role="tabpanel" class="tab-pane fade in" id="monthForcast">
-                    <h2>Month Forcast</h2>
+                    <h2>Month Forecast</h2>
                         <div class="col-xs-12 col-md-12 col-lg-10" id="month-forcast-chart">
                             
                             <script type="text/javascript">
@@ -117,7 +117,7 @@
                                   ],
                                   names:{
                                     data1:'Actual Sales',
-                                    data2:'Forcasted Sales'
+                                    data2:'Forecasted Sales'
                                   },
                                   axes: {
                                     data2: 'y1'
@@ -160,7 +160,7 @@
                     </div> <!-- #yearlyComparison -->
 
                     <div role="tabpanel" class="tab-pane fade in" id="yearForcast">
-                        <h2>Year Forcast</h2>
+                        <h2>Year Forecast</h2>
                         <div class="col-xs-12 col-md-12 col-lg-10" id="year-forcast-chart">
                             
                             <script type="text/javascript">
@@ -202,7 +202,7 @@
                                   ],
                                   names:{
                                     data1:'Actual Sales',
-                                    data2:'Forcasted Sales'
+                                    data2:'Forecasted Sales'
                                   },
                                   axes: {
                                     data2: 'y1'
@@ -250,10 +250,10 @@
                         <th>Branch Name</th>
                         <th class="text-right">Current Month</th>
                         <th class="text-right">Last Month</th>
-                        <th class="text-right">Month Forcast</th>
+                        <th class="text-right">Month Forecast</th>
                         <th class="text-right">Month %</th>
                         <th class="text-right">Current Fiscal Year</th>
-                        <th class="text-right">Year Forcast</th>
+                        <th class="text-right">Year Forecast</th>
                         <th class="text-right">Last Fiscal Year</th>
                     </tr>
                     <?php

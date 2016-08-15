@@ -40,7 +40,7 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="https://github.com/edavlatian">GitHub</a></li>
+                        <li><a href="https://github.com/edavlatian/d3-mini-project">GitHub</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div><!--/.container-fluid -->
